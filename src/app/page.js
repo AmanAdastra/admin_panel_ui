@@ -1,10 +1,9 @@
-import { Button } from "@nextui-org/button";
-import Themecomponent from "./components/ThemeComponent/Themecomponent";
+import NavComponent from "./components/NavigationBar/NavComponent";
 
 export default function Home() {
   return (
-    <div>
-      <Themecomponent/>
-    </div>
+    <>
+      <NavComponent />
+    </>
   );
 }

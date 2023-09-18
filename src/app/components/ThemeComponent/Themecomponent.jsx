@@ -21,13 +21,11 @@ const Themecomponent = () => {
       isSelected={isSelected}
       onValueChange={toggleMode}
       size="lg"
-      color="success"
+      color="default"
       startContent={<SunIcon />}
       endContent={<MoonIcon />}
+      className="m-0 p-0"
     >
-        {
-          theme == "light"? "Light Mode": "Dark Mode"
-        }
     </Switch>
   );
 };
