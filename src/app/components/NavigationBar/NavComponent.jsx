@@ -47,7 +47,7 @@ const NavComponent = () => {
               <div className="flex items-center">
 
               <AcmeLogo />
-              <p className="font-bold text-inherit dark:text-white pl-2">ACME</p>
+              <p className="font-bold text-inherit dark:text-white pl-2 hidden md:block">ACME</p>
               </div>
             </NavbarBrand>
           </NavbarContent>
