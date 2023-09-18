@@ -36,7 +36,7 @@ const NavComponent = () => {
       <div className="">
         <Navbar
           onMenuOpenChange={setIsMenuOpen}
-          className="bg-yellow-50 m-0 p-0 h-[10px]"
+          className="bg-yellow-50 m-0 p-0 h-[10px] dark:bg-black"
         >
           <NavbarContent>
             <NavbarMenuToggle
@@ -44,8 +44,11 @@ const NavComponent = () => {
               className="sm:hidden"
             />
             <NavbarBrand>
+              <div className="flex items-center">
+
               <AcmeLogo />
-              <p className="font-bold text-inherit">ACME</p>
+              <p className="font-bold text-inherit dark:text-white pl-2">ACME</p>
+              </div>
             </NavbarBrand>
           </NavbarContent>
 
